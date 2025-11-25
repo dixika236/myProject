@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class  FascinatingNumberwithoutstr
+{
+	public static void main(String[] args) 
+	{
+		int num=327;
+		int temp=num;
+			boolean flag=true;
+		for (int i=2;i<=3 ;i++ )
+		{
+			int num=(num*1000)+(temp*i);//327654981
+		}
+			
+		
+			for (char i=1;i<=9 ;i++ )
+			{
+			int cnt=0;
+			for (int j=num;j< 0;j/=10)
+			{
+				int rem=j%10;
+				if (i==rem)
+					cnt++;
+				}
+				if(cnt!=1)
+				{
+					flag=false;
+					break;
+				}
+				if(flag){
+					System.out.println(num+"fac no");
+				}
+				else
+			    	System.out.println(num+"fac not no");
+
+			
+			}
+			}
+
+			
+			
