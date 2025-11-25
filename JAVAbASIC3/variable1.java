@@ -1,0 +1,21 @@
+
+class swapping
+
+{
+	public static void main(String[] agrs)
+		
+	{
+	int a=10;
+	int b=20;
+	
+   System.out.println("a= " +a);
+   System.out.println("a= " +b);
+    int temp=a;
+	a=b;
+	b=a;
+	System.out. print("a= " +a);
+   System.out .print("a= " +b);
+	
+	}
+		
+}
