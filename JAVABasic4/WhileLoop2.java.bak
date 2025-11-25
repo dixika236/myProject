@@ -1,0 +1,13 @@
+class WhileLoop2
+{
+	public static void main(String[] args) 
+	{
+		char start='z';
+		while(start<='a')
+		{
+		System.out.println(start);
+		start--;
+		}
+	}
+}
+

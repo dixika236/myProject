@@ -1,0 +1,31 @@
+class widening 
+{
+	public static void main(String[] args) 
+	{
+		double d=10;
+		System.out.println("d= " +d);
+		int i='a';
+		System.out.println("i= " +i);
+		float f='d';
+		System.out.println("f= " +f);
+		/*long l=45.432859575454;
+		System.out.println("l" +l);*/ //gives possible lossy conversation/
+		
+		/*byte b="dixika";
+		System.out.println("b" +b);gives string cannot be converted to byte*/
+		
+		long l=10;
+		System.out.println("l= " +l);
+		
+		short s='h';
+		System.out.println("s= "+s);
+		
+		char c=107;
+		System.out.println("c= " +c);
+		
+		
+	}
+}
+
+
+
